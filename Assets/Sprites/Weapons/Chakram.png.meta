@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: e0fdbb1b52c704c48a4a982331beaaad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3925668153593726738
+    second: Chakram_0
+  - first:
+      213: -8509260820271322073
+    second: Chakram_1
+  - first:
+      213: -1021913307979312080
+    second: Chakram_2
+  - first:
+      213: 2512666197237705103
+    second: Chakram_3
+  - first:
+      213: -3531026376045778177
+    second: Chakram_4
+  - first:
+      213: 4702020025816094280
+    second: Chakram_5
+  - first:
+      213: -3581228528365429640
+    second: Chakram_6
+  - first:
+      213: 1930639250559895441
+    second: Chakram_7
+  - first:
+      213: 1771867843580174031
+    second: Chakram_8
+  - first:
+      213: -7699328298682652086
+    second: Chakram_9
+  - first:
+      213: 4355602524518067160
+    second: Chakram_10
+  - first:
+      213: -3881199763922466301
+    second: Chakram_11
+  - first:
+      213: -2440026818525247913
+    second: Chakram_12
+  - first:
+      213: -6374376452591080160
+    second: Chakram_13
+  - first:
+      213: 2409014468505444117
+    second: Chakram_14
+  - first:
+      213: -1548782776725682631
+    second: Chakram_15
+  - first:
+      213: -7385139949017250277
+    second: Chakram_16
+  - first:
+      213: 8317067500268267114
+    second: Chakram_17
+  - first:
+      213: -8326677146755553693
+    second: Chakram_18
+  - first:
+      213: 1772210468081265468
+    second: Chakram_19
+  - first:
+      213: -9057348707725497754
+    second: Chakram_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chakram_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 821
+        width: 144
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2178409f266ca7630800000000000000
+      internalID: 3925668153593726738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1040
+        width: 50
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c24923e5809e980800000000000000
+      internalID: -8509260820271322073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 937
+        width: 180
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03416aeb24f61d1f0800000000000000
+      internalID: -1021913307979312080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1045
+        width: 36
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f892c7df798ced220800000000000000
+      internalID: 2512666197237705103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1037
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaa14b18364ffec0800000000000000
+      internalID: -3531026376045778177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_5
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 909
+        width: 382
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8469a851d4ee04140800000000000000
+      internalID: 4702020025816094280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_6
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 872
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c984ba0abec4ec0800000000000000
+      internalID: -3581228528365429640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_7
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 691
+        width: 212
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1978c0f5b220bca10800000000000000
+      internalID: 1930639250559895441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 382
+        width: 139
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce988d7a60f69810800000000000000
+      internalID: 1771867843580174031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 773
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a68e384bd762590800000000000000
+      internalID: -7699328298682652086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_10
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 469
+        width: 206
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dba1b84b65327c30800000000000000
+      internalID: 4355602524518067160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_11
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 577
+        width: 125
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a4211d065332ac0800000000000000
+      internalID: -3881199763922466301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_12
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 428
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756406f4988432ed0800000000000000
+      internalID: -2440026818525247913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_13
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 464
+        width: 103
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02da1b6a36aa987a0800000000000000
+      internalID: -6374376452591080160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_14
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 209
+        width: 305
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f1b0645e98e6120800000000000000
+      internalID: 2409014468505444117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 338
+        width: 88
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936c507354e918ae0800000000000000
+      internalID: -1548782776725682631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 291
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16c7423856b28990800000000000000
+      internalID: -7385139949017250277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_17
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 173
+        width: 341
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66af6663d82c6370800000000000000
+      internalID: 8317067500268267114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_18
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 143
+        width: 146
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366a54c6043b17c80800000000000000
+      internalID: -8326677146755553693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 136
+        width: 257
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b6639f708289810800000000000000
+      internalID: 1772210468081265468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chakram_20
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 165
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66aad259655dd4280800000000000000
+      internalID: -9057348707725497754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chakram_0: 3925668153593726738
+      Chakram_1: -8509260820271322073
+      Chakram_10: 4355602524518067160
+      Chakram_11: -3881199763922466301
+      Chakram_12: -2440026818525247913
+      Chakram_13: -6374376452591080160
+      Chakram_14: 2409014468505444117
+      Chakram_15: -1548782776725682631
+      Chakram_16: -7385139949017250277
+      Chakram_17: 8317067500268267114
+      Chakram_18: -8326677146755553693
+      Chakram_19: 1772210468081265468
+      Chakram_2: -1021913307979312080
+      Chakram_20: -9057348707725497754
+      Chakram_3: 2512666197237705103
+      Chakram_4: -3531026376045778177
+      Chakram_5: 4702020025816094280
+      Chakram_6: -3581228528365429640
+      Chakram_7: 1930639250559895441
+      Chakram_8: 1771867843580174031
+      Chakram_9: -7699328298682652086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

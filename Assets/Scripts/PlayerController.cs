@@ -12,10 +12,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Vector2 movementInput = playerInput.actions["Move"].ReadValue<Vector2>();
-        movementInput.Normalize();
-        Vector3 movementVector = new Vector3(movementInput.x, movementInput.y, 0);
-        movementVector += transform.position;
-
-        transform.position = Vector3.MoveTowards(transform.position, movementVector, moveSpeed * Time.deltaTime);
+        transform.position += (Vector3)movementInput * moveSpeed * Time.deltaTime;
     }
 }

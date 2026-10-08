@@ -30,6 +30,7 @@ public class FindClosestEnemy : MonoBehaviour
         return targetObj;
     }
 
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy")) enemies.Add(collision.gameObject);

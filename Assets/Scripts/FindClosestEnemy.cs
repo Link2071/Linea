@@ -24,7 +24,6 @@ public class FindClosestEnemy : MonoBehaviour
             {
                 targetPos = enemies[i].transform.position;
                 targetObj = enemies[i];
-                Debug.Log($"closes enemy is at {targetPos}");
             }
         }
         return targetObj;
@@ -34,12 +33,10 @@ public class FindClosestEnemy : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy")) enemies.Add(collision.gameObject);
-        Debug.Log($"{collision.gameObject.name} entered radius. {enemies.Count} enemies in range");
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy") && enemies.Contains(collision.gameObject)) enemies.Remove(collision.gameObject);   
-        Debug.Log($"{collision.gameObject.name} exited radius. {enemies.Count} enemies in range");
     }
 }

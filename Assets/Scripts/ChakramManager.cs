@@ -3,8 +3,10 @@ using UnityEngine;
 public class ChakramManager : MonoBehaviour, WeaponInterface
 {
     [SerializeField] private float cooldown;
-    private float _timer;
+    [SerializeField] private float damage;
     [SerializeField] private GameObject chakramPrefab;
+    private float _timer;
+
     private bool _cooldownElapsed => _timer <= 0;
 
     void Start()

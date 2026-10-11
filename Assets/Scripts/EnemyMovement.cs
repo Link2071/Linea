@@ -8,10 +8,9 @@ public class EnemyMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
-        Vector3 playerPosition = PlayerController.instance.transform.position.normalized - transform.position.normalized; 
-        rb.linearVelocity.Set( playerPosition.x, playerPosition.y);
-        Debug.Log($"player {gameObject.name} has velocity of {rb.linearVelocity}");
+        transform.position = Vector3.MoveTowards(transform.position, PlayerController.instance.transform.position, moveSpeed * Time.deltaTime);
     }
 }

@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SwordLogic
   degreesToRotate: 300
   lifeTime: 0.4
-  damage: 50
+  damage: 35
 --- !u!50 &8968410204525338567
 Rigidbody2D:
   serializedVersion: 5

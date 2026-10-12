@@ -1,28 +1,19 @@
 using UnityEngine;
 
-public class SwordManager : MonoBehaviour
+public class SwordManager : WeaponManagerSuperclass
 {
-    [SerializeField] private GameObject swordPrefab;
-    private float _timer;
-    [SerializeField] private float cooldown;
-    private bool _cooldownElapsed => _timer <= 0;
-    void Start()
+    void OnEnable()
     {
         _timer = cooldown;
     }
 
-    public void UseWeapon()
+    override public void UseWeapon()
     {
-        GameObject childProjectile = Instantiate(swordPrefab, transform);
+        GameObject childProjectile = Instantiate(childPrefab, transform);
     }
 
-    void Update()
+    protected override void Update()
     {
-        _timer -= Time.deltaTime;
-        if (_cooldownElapsed)
-        {
-            UseWeapon();
-            _timer = cooldown;
-        }
+        base.Update();
     }
 }

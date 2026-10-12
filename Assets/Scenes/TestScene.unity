@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88ff1a4fe3d10954b80e8e5ab1d13e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordManager
-  swordPrefab: {fileID: 2756657003933254109, guid: bd56e0da8ea56624ab70209b8830a8ce, type: 3}
+  childPrefab: {fileID: 2756657003933254109, guid: bd56e0da8ea56624ab70209b8830a8ce, type: 3}
   cooldown: 3
 --- !u!1 &1152279153
 GameObject:
@@ -547,9 +547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76015773623a2e438e18041365a9353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChakramManager
-  cooldown: 3
-  damage: 50
-  chakramPrefab: {fileID: 5938889423167267862, guid: e290860fe8b64694cae8964cb4a8fb70, type: 3}
+  childPrefab: {fileID: 5938889423167267862, guid: e290860fe8b64694cae8964cb4a8fb70, type: 3}
+  cooldown: 2
 --- !u!1 &1393966104
 GameObject:
   m_ObjectHideFlags: 0

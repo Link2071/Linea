@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        Application.targetFrameRate = (int)Screen.currentResolution.refreshRateRatio.value;
         if (instance != null && instance != this) Destroy(this);
         else instance = this;
     }

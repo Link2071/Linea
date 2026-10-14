@@ -11,6 +11,7 @@ public class ChakramLogic : MonoBehaviour
     [SerializeField] private float lifeTime = 2f; 
     [SerializeField] private float damage = 20f;
     [SerializeField] private float damageInterval = 1f;
+    [SerializeField] private float knockbackStrength = 4f;
     private List<GameObject> enemiesToDamage = new List<GameObject>();
     private bool _reachedTarget => Vector3.Distance(transform.position, _targetPos) < 0.01;
     private bool _firstEnemy = true;
@@ -60,7 +61,7 @@ public class ChakramLogic : MonoBehaviour
             foreach (GameObject enemy in enemiesToDamage)
             {
                 EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
-                if (enemyHealth != null) enemyHealth.TakeDamage(damage, spriteRenderer.color);
+                if (enemyHealth != null) enemyHealth.TakeDamage(damage, spriteRenderer.color, transform.position, knockbackStrength);
             }
             yield return new WaitForSeconds(damageInterval);
         }

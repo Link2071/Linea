@@ -111,6 +111,7 @@ MonoBehaviour:
   lifeTime: 2
   damage: 20
   damageInterval: 1
+  knockbackStrength: 4
 --- !u!50 &-7649576044756652723
 Rigidbody2D:
   serializedVersion: 5

@@ -5,6 +5,7 @@ public class SwordLogic : MonoBehaviour
     [SerializeField] private float degreesToRotate = 45;
     [SerializeField] private float lifeTime = 2f;
     [SerializeField] private float damage = 50f;
+    [SerializeField] private float knockbackStrength = 1;
     private SpriteRenderer spriteRenderer;
 
     void OnEnable()
@@ -22,7 +23,7 @@ public class SwordLogic : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            collision.GetComponent<EnemyHealth>().TakeDamage(damage, spriteRenderer.color);
+            collision.GetComponent<EnemyHealth>().TakeDamage(damage, spriteRenderer.color, transform.position, knockbackStrength);
         }    
     }
 }

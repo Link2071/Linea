@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class ChakramManager : WeaponManagerSuperclass
 {
-
-
     void OnEnable()
     {
         _timer = cooldown;

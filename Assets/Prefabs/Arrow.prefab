@@ -108,9 +108,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BowLogic
   bowPrefab: {fileID: 6981679846010482100, guid: 767bc80e32d32d04ba43601dfb2d3137, type: 3}
   moveSpeed: 20
-  lifeTime: 2
+  lifeTime: 0.5
   damage: 30
   knockbackStrength: 8
+  distance: 20
 --- !u!58 &1419817282946227988
 CircleCollider2D:
   m_ObjectHideFlags: 0

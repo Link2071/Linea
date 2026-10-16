@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class BowLogic : MonoBehaviour
 {
-    private Vector3 _targetPos;
     [SerializeField] private GameObject bowPrefab;
     [SerializeField] private float moveSpeed;
     [SerializeField] private float lifeTime;
     [SerializeField] private float damage;
     [SerializeField] private float knockbackStrength;
+    [SerializeField] private float distance;
+    private Vector3 _targetPos;
     private SpriteRenderer _spriteRenderer;
     private GameObject _bowObject;
 
@@ -16,7 +17,7 @@ public class BowLogic : MonoBehaviour
         _spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 
         _bowObject = Instantiate(bowPrefab, PlayerController.instance.transform);
-        Destroy(_bowObject, lifeTime - 1); 
+        Destroy(_bowObject, lifeTime/3); 
         Destroy(gameObject, lifeTime);   
     }
 
@@ -28,6 +29,9 @@ public class BowLogic : MonoBehaviour
         targetDir.z = 0;
         _bowObject.transform.right = -targetDir;
         transform.right = -targetDir;
+
+        targetDir.Normalize();
+        _targetPos = targetDir * distance;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -42,8 +46,6 @@ public class BowLogic : MonoBehaviour
 
     private void Update()
     {
-        Vector3 targetDir = _targetPos - transform.position;
-        Vector3 targetDirScaled = transform.position + (targetDir.normalized * moveSpeed * Time.deltaTime);
-        transform.position = Vector3.MoveTowards(transform.position, targetDirScaled, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, transform.position + _targetPos, moveSpeed * Time.deltaTime);
     }
 }

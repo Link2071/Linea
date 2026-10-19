@@ -8,7 +8,7 @@ public class PickupXp : MonoBehaviour
         {
             XpLogic xpLogic = collision.GetComponent<XpLogic>();
             if (xpLogic == null) return;
-            xpLogic.Pickup();
+            // xpLogic.Pickup();
         }
     }
 }

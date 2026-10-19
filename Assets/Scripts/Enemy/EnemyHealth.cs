@@ -5,6 +5,7 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private float enemyHealth = 100f;
     [SerializeField] private ParticleSystem hitEffect;
+    [SerializeField] private GameObject xpGem;
     private List<ParticleSystem> _particleSystems = new List<ParticleSystem>();
     private EnemyMovement _enemyMovement;
     private bool _enemyMovementExists => _enemyMovement != null;
@@ -27,6 +28,7 @@ public class EnemyHealth : MonoBehaviour
                     particleSystem.transform.localScale = new Vector3( 1, 1, 1);
                 }
             }
+            Instantiate(xpGem, transform.position, Quaternion.Euler(0, 0, 90));
             Destroy(gameObject);
         }
     }

@@ -172,6 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   enemyHealth: 100
   hitEffect: {fileID: 8035067157078445656, guid: b98388b86c9578b4ab03b7b343fde271, type: 3}
+  xpGem: {fileID: 2727068927616378407, guid: b6708909210328d4a8d1f26116f93c13, type: 3}
 --- !u!114 &4569464492824092322
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class SwordManager : WeaponManagerSuperclass
     override public void UseWeapon()
     {
         GameObject childProjectile = Instantiate(childPrefab, transform);
+        childProjectile.GetComponent<SwordLogic>().SetStart(true);
     }
 
     protected override void Update()

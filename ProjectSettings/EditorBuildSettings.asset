@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: eeca0738fb35c7c41badb9d44da35dbd
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 077f69b90f7c0654a93b27dba3e5aaea
   m_configObjects:
+    com.unity.adaptivePerformance.basic.provider_settings: {fileID: 11400000, guid: 70b7e2b3e033b554faf7313705478a08, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 25aecbb4128d729409d7c6ea6d5f89c8, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: c7e049f93b7f46747b9e0ac4052e1fe5, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 4313f861e52a999468e7eb81509842ce, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

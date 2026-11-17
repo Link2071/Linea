@@ -1,21 +1,15 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class XpUi : MonoBehaviour
 {
     [SerializeField] private Image xpBar;
-    private int _currentXp;
-    private int _maxXp;
+    [SerializeField] private TMP_Text lvlText;
 
-    public void AddXp(int amount)
+    void Update()
     {
-        _currentXp += amount;
-        xpBar.fillAmount = _currentXp / _maxXp;
-    }
-
-    public void AddMaxXp(int amount)
-    {
-        _maxXp += amount;
-        xpBar.fillAmount = _currentXp / _maxXp;
+        xpBar.fillAmount = PlayerXp.instance.lvlCompletionPercent;
+        lvlText.text = PlayerXp.instance.currentLvl.ToString();
     }
 }

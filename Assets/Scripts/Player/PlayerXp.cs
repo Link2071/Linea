@@ -5,7 +5,8 @@ public class PlayerXp : MonoBehaviour
     public static PlayerXp instance { get; private set; }
     [SerializeField] private int currentXp;
     [SerializeField] private int maxXp;
-    public float currentLvl;
+    public int currentLvl;
+    public float lvlCompletionPercent;
 
     private void Awake()
     {
@@ -21,6 +22,8 @@ public class PlayerXp : MonoBehaviour
             int levelsToUpgrade = currentXp / maxXp;
             currentLvl += levelsToUpgrade;
             currentXp = currentXp % maxXp;
+            maxXp += currentLvl * 10;
         }
+        lvlCompletionPercent = (float)currentXp / (float)maxXp;
     }
 }

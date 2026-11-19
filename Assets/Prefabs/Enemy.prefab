@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 368810170400208942}
   - component: {fileID: 6667415629320956347}
   - component: {fileID: 4569464492824092322}
+  - component: {fileID: 4538151233520928851}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -186,3 +187,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   moveSpeed: 0.7
+--- !u!114 &4538151233520928851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4395248135497330189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1c360d859e68b499216a66050a7a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContactDamage
+  damage: 5
